@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/* common */
+
+.important {
+	color: red;
+	font-weight: bold;
+}
+
+/* image */
+
+#content .image {
+	margin: 0 10px;
+}
+
+	#content .image img {
+		max-width: 460px;
+		width: 100%;
+	}
+	
+/* btn tel */
+	
+#content .btn-tel {
+	margin: 0 10px;
+}	
+
+	#content .btn-tel .btn-common-tel {
+		display: block;
+		padding: 15px 25px;
+		border: 1px solid #988B8B;
+		border-radius: 1em;
+		-webkit-border-radius: 1em;
+		background-image: linear-gradient( white, #E80B02),;
+		background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#E80B02));
+		-webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, .3);
+		box-shadow: 0px 1px 4px rgba(0, 0, 0, .3);
+	}	
+
+		#content .btn-tel .btn-common-tel span {
+			display: block;
+			background: url("images/phone.png") left no-repeat;
+			font-weight: bold;
+			text-shadow: 0 1px 0 #ffdbdb;		
+			font-size: 18px;			
+		}	
+	
+	#content .btn-tel img {
+		max-width: 460px;
+		width: 100%;
+	}	
+
+	#content .btn-tel .number {
+		display: block;
+		margin-top: 5px;
+		font-size: 30px;
+		color: red;
+		font-weight: bold;
+		letter-spacing: 2px;
+	}
+
+/* imfo */
+	
+ul.info {
+	margin-top: 15px;
+}
+
+/* shinsa */
+
+#content .announce {
+	margin: 15px;
+	text-align: left;
+	line-height: 1.5;
+}
+
+	#content .announce span {
+		display: block;
+		margin-bottom: 5px;
+	}
