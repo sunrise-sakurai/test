@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/*************
+ base
+*************/
+
+body {
+	color: #006600;
+	font-size:14px;
+	line-height:1.4;
+	font-family: Helvetica, Arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'モリサワ 新ゴ R', 'Droid Sans', 'sans-serif';
+	-webkit-text-size-adjust: none;
+}
+
+a {
+	color: #006600;
+	text-decoration: none;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+body > img {
+	display: none;
+}
+
+
+/*************
+ header
+*************/
+
+.base-head {
+	display: box;
+	display: -webkit-box;
+	padding: 10px;
+	background-color: #38b848;
+	text-align: center;
+	color: #fff;
+	line-height: 1.2;
+}
+
+	.base-head h1 {
+		box-flex: 1.0;
+		-webkit-box-flex: 1.0;
+		font-size: 16px;
+	}
+
+		.base-head h1 span {
+			font-size: 12px;
+		}
+
+	.base-head p {
+		box-flex: 1.0;
+		-webkit-box-flex: 1.0;
+	}
+
+		.base-head p a {
+			font-size: 18px;
+			color: #fff;
+		}
+
+/***************
+ footer
+***************/
+
+.total-nav {
+	margin: 10px 0;
+	border-top: 2px dotted #333;
+}
+
+	.total-nav li {
+		padding: 0 10px;
+		border-bottom: 2px dotted #333;
+	}
+
+		.total-nav li a {
+			padding-left: 30px;
+			line-height: 34px;
+			background: url(/sp/img/common/icon-link-green.png) no-repeat transparent left center;
+		}
+
+footer {
+	padding: 10px;
+	background-color: #38b848;
+	text-align: center;
+	color: #fff;
+}
+
+	footer small {
+		font-size: 13px;
+	}

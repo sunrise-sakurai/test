@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/***************
+ box
+****************/	
+
+.box-image {
+	margin: 10px;
+	text-align: center;
+}
+
+.box-notice {
+	margin: 10px;
+	padding: 10px;
+	background-color: #e8f3d3;
+}
+
+.box-content {
+	margin: 10px;
+}
+
+p.default-text {
+	margin-bottom: 10px;
+	color: #333;
+}
+
+.box-info {
+	margin: 10px 0;
+	padding: 10px;
+	border: 1px dotted #696969;
+	color: #333;
+}
+
+dl.box-info dt {
+	width: 60px;
+	text-align: center;
+	background-color: #696969;
+	color: #fff;
+}
+
+dl.box-info dd {
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+dl.box-info dd:last-child {
+	margin-bottom: 0;
+}
+
+.default-text.bound {
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #333;
+}
+
+/********
+ link
+********/
+
+a.icon-link {
+	background: url(/sp/img/common/icon-link-green.png) no-repeat transparent right center;
+}
+
+/********
+text
+********/
+
+.emphasis {
+	font-weight: bold;
+}
+
+.point {
+	color: blue;
+}
+
+.essential {
+	color: red;
+}
+
+/*********
+title
+*********/
+
+.sub-title {
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	background-color: #e8f3d3;
+	font-size: 18px;
+	text-align: center;
+}
+
+.middle-title {
+	margin: 15px 0 15px 0;
+	border-top: 1px dashed #000;
+	border-bottom: 1px dashed #000;
+	font-size: 15px;
+}
+
+.middle-title:before {
+	content: "◆";
+}
+
+/******
+ tel
+*******/
+
+.btn-tel {
+	margin: 10px;
+	border: 1px solid #f29c78;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	background: -moz-linear-gradient(#FFFFFF, #f29c78) repeat scroll 0 0 #f29c78;
+	background: -webkit-gradient(linear, left bottom, left top, from(#f29c78), to(#FFFFFF));
+	line-height: 40px;
+}
+
+	.btn-tel a {
+		position: relative;
+		padding: 0 10px 0 54px;
+		background: url(/sp/img/common/icon-link-red.png) no-repeat right center transparent;
+		background-origin: content-box;
+		-webkit-background-origin: content-box;
+		color: #cc3333;
+	}
+	
+	.btn-tel a:before {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 10px;
+		width: 34px;
+		height: 40px;
+		background: url(/sp/img/common/icon-tel.png) no-repeat left center transparent;
+		content: "";
+	}
+	
+		.btn-tel a span {
+			padding-left: 10px;
+			font-size: 16px;
+		}
+
